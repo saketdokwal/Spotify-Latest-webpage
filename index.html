@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>New Releases</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <h1>MY TRANCE PLALIST</h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="covers/1.jpg" />
+            <span class="songName">i m good </span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34
+                <i
+                  id="0"
+                  class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa songItemPLay fa-play"
+                ></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/2.jpg" />
+            <span class="songName">D From Amsterdam</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34
+                <i
+                  id="1"
+                  class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa songItemPLay fa-play"
+                ></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/3.jpg" />
+            <span class="songName">Beggin</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34
+                <i
+                  id="2"
+                  class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa songItemPLay fa-play"
+                ></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/4.jpg" />
+            <span class="songName">No Limits</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34
+                <i
+                  id="3"
+                  class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa songItemPLay fa-play"
+                ></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/5.jpg" />
+            <span class="songName">High</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34
+                <i
+                  id="4"
+                  class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa songItemPLay fa-play"
+                ></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/6.jpg" />
+            <span class="songName">Push Up</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34
+                <i
+                  id="5"
+                  class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa songItemPLay fa-play"
+                ></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/9.jpg" />
+            <span class="songName">Takin You Back </span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34
+                <i
+                  id="6"
+                  class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa songItemPLay fa-play"
+                ></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/8.jpg" />
+            <span class="songName">Senorita</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34
+                <i
+                  id="7"
+                  class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa songItemPLay fa-play"
+                ></i> </span
+            ></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <i
+          class="songItemPLay fa-solid songItemPLay fa-2x songItemPLay fa-backward-step"
+        ></i>
+        <i
+          class="songItemPLay fa-sharp songItemPLay fa-solid songItemPLay fa-2x songItemPLay fa-play"
+          id="masterPlay"
+        ></i>
+        <i
+          class="songItemPLay fa-solid songItemPLay fa-2x songItemPLay fa-forward-step"
+        ></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" alt="" width="42px" id="gif" />
+        <span id="masterSongName"></span>
+        I m good - David Guetta
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e1d88f4752.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
